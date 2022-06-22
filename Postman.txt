@@ -1,0 +1,10 @@
+https://10.142.0.30:18194/tecloud/api/v1/file/query
+
+{
+    "request": { 
+        "md5": "2d3e4be2d16156651592e8c825b3065e", 
+        "file_name": "MyFile.docx", 
+        "file_type": "docx" 
+        }
+        
+}

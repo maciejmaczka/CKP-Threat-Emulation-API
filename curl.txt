@@ -1,0 +1,7 @@
+
+
+curl_cli --insecure -X POST https://te.checkpoint.com/tecloud/api/v1/file/upload -H 'Authorization: TE_API_KEY_VtzQ99t1ButhlBomSSb8exisnxV3uoTklmCxs' -F 'request={ "request": [{"file_name": "MyFile.docx", "file_type": "docx", "features": [ "te" ] } ]} ' -F 'file=@/home/admin/hosts.csv'
+
+curl_cli --insecure -X POST https://te.checkpoint.com/tecloud/api/v1/file/query -H 'Authorization: TE_API_KEY_VtzQ99t1ButhlBomSSb8exisnxV3uoTklmCxs' -d '{"request": {"sha1": "28e53a1f7ab41e140c590983665554dc3ff6222d","file_name": "hosts.csv", "file_type": "csv"     }} '
+
+

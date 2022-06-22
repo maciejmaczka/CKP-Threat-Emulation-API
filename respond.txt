@@ -1,0 +1,55 @@
+{
+   "response" : {
+      "av" : {
+         "malware_info" : {
+            "confidence" : 5,
+            "malware_family" : 28477,
+            "malware_type" : 139,
+            "severity" : 4,
+            "signature_name" : "Trojan-Ransom.Win32.Alien.b.W.rzxvx"
+         },
+         "status" : {
+            "code" : 1001,
+            "label" : "FOUND",
+            "message" : "The request has been fully answered."
+         }
+      },
+      "features" : [ "te", "av" ],
+      "file_name" : "uploads/PanZabka.pdf.exe",
+      "file_type" : "exe",
+      "md5" : "2d3e4be2d16156651592e8c825b3065e",
+      "sha1" : "1e9b1279ed20a789f36c0cddc2c09d7424994c2f",
+      "sha256" : "4aa2c031b92e14790f293740175939c4bbc001186c422eb5e54687f16eda1f55",
+      "status" : {
+         "code" : 1006,
+         "label" : "PARTIALLY_FOUND",
+         "message" : "The request has been partially served"
+      },
+      "te" : {
+         "images" : [
+            {
+               "id" : "5e5de275-a103-4f67-b55b-47532918fa59",
+               "report" : {
+                  "verdict" : "unknown"
+               },
+               "revision" : 1,
+               "status" : "not_found"
+            },
+            {
+               "id" : "e50e99f3-5963-4573-af9e-e3f4750b55e2",
+               "report" : {
+                  "verdict" : "unknown"
+               },
+               "revision" : 1,
+               "status" : "not_found"
+            }
+         ],
+         "status" : {
+            "code" : 1004,
+            "label" : "NOT_FOUND",
+            "message" : "Couldn't find the requested file, please upload it"
+         }
+      }
+   }
+}
+
